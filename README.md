@@ -18,7 +18,7 @@ Containerization: Docker Compose.
 Запуск проєкту
 Для розгортання системи достатньо локально встановленого Docker.
 Склонуйте репозиторій(-b main) та перейдіть у кореневу папку.
-Створіть файл .env на основі .env.example та вкажіть свої ключі: TelegramBot__Token, ChatId, CryptoApiSettings__CryptoApiKey.
+Створіть файл .env на основі .env.example та вкажіть свої ключі: TelegramBot__Token, ChatId, CryptoApiSettings__CryptoApiKey . Так само з файлом appsettings.json
 Запустіть інфраструктуру командою: docker-compose up -d --build.
 Система автоматично налаштує мережу між контейнерами, запустить API та Redis. Після запуску сервіси будуть доступні:
 API (Swagger UI): http://localhost:5000/swagger
@@ -28,6 +28,7 @@ Hangfire Dashboard: http://localhost:5000/hangfire
 
 
 Сервіс можна використовувати як автономний інструмент для автоматизації: достатньо створити власного бота через BotFather, отримати Token та Chat ID, і прописати їх у конфіг. Це дозволяє розгорнути персоналізовану систему моніторингу для будь-яких задач.
+Буде дуже корисний для тих хто торгує на фючерсах.
 
 
 
