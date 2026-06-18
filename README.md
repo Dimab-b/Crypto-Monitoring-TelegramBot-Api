@@ -86,7 +86,7 @@
 
 ```bash
 git clone -b main https://github.com/Dimab-b/Crypto-Monitoring-TelegramBot-Api.git
-cd CryptoMonitoringAPI
+cd Crypto-Monitoring-TelegramBot-Api
 ```
 
 ## 2. Створіть `.env`
