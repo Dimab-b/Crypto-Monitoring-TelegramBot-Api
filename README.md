@@ -164,7 +164,7 @@ docker-compose down
 ## Telegram Bot
 
 <p align="center">
-    <img src="images/telegram-bot.png" width="500">
+    <img src="docs/TelegramBot_Api.png" width="500">
 </p>
 
 ---
@@ -172,5 +172,5 @@ docker-compose down
 ## Swagger UI
 
 <p align="center">
-    <img src="images/swagger.png" width="900">
+    <img src="docs/swagger_ui.png" width="900">
 </p>
